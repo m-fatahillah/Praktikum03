@@ -10,6 +10,7 @@ public class MataKuliah13 {
     Scanner sc = new Scanner(System.in);
 
     public MataKuliah13() {
+
     }
 
     public MataKuliah13(String kode, String nama, int sks, int jumlahJam) {
@@ -32,7 +33,7 @@ public class MataKuliah13 {
         jumlahJam = Integer.parseInt(dummy);
         System.out.println("----------------------------------------");
     }
-
+    
     void cetakInfo() {
         System.out.println("Kode           : " + kode);
         System.out.println("Nama           : " + nama);
