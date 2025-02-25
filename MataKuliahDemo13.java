@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class MataKuliahDemo13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("=========== Program MataKuliah ============");
         System.out.print("Masukkan Banyak Data MataKuliah: ");
         int banyakData = sc.nextInt();
         MataKuliah13[] arrayOfMataKuliah = new MataKuliah13[banyakData];
